@@ -97,6 +97,7 @@ h2 {
 .container-mobile {
 	padding-top: 5vh;
 	margin: 5vh;
+	height: auto;
 
 }
 
@@ -146,7 +147,4 @@ a {
 		top: 6825px;
 	}
 
-	.container {
-		max-height: 100vh;
-	}
 }
