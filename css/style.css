@@ -129,7 +129,6 @@ p {
 	width: 80vw;
 	margin-top: 7vh;
 	color: white;
-	/*font-family: , sans-serif;*/
 }
 
 a {
@@ -143,8 +142,10 @@ a {
 	}
 
 	#closing {
-		position: absolute;
-		top: 6825px;
+		margin-bottom: 7vh;
 	}
 
+	#main {
+		height: auto;
+	}
 }
