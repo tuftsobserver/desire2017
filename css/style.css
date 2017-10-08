@@ -11,12 +11,19 @@ body {
 
 h1 {
 	color: white;
-	font-family: "Shrikhand", cursive;
+	font-family: "Anton", sans-serif;
 	font-size: 5vw;
 	margin: 0 auto;
-	padding: 3vh;
+	padding: 1vh;
 }
 
+h2 {
+	width: 80vw;
+	color: white;
+	margin: 0 auto;
+	font-size: 1.5vw;
+	padding-bottom: 2vh;
+}
 
 #main {
 	display: block;
@@ -39,7 +46,7 @@ h1 {
 
 .arrow {
 	display: inline-block;
-	font-family: "Shrikhand", cursive;
+	font-family: "Anton", sans-serif;
 	color: white;
 	font-size: 15vh;
 	padding-top: 15vh;
@@ -49,10 +56,12 @@ h1 {
 }
 
 #rightArrow {
+	width: 5vw;
 	padding-left: 5vw;
 }
 
 #leftArrow {
+	width: 5vw;
 	padding-right: 5vw;
 }
 
@@ -110,6 +119,7 @@ img {
 
 p {
 	font-size: 12px;
+	margin: 0 auto;
 }
 
 #closing {
@@ -118,7 +128,7 @@ p {
 	width: 80vw;
 	margin-top: 7vh;
 	color: white;
-	font-family: "Shrikhand", cursive;
+	/*font-family: , sans-serif;*/
 }
 
 a {
@@ -134,5 +144,9 @@ a {
 	#closing {
 		position: absolute;
 		top: 6825px;
+	}
+
+	.container {
+		max-height: 100vh;
 	}
 }
