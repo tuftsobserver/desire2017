@@ -12,7 +12,7 @@ body {
 h1 {
 	color: white;
 	font-family: "Anton", sans-serif;
-	font-size: 5vw;
+	font-size: 4vw;
 	margin: 0 auto;
 	padding: 1vh;
 }
@@ -21,8 +21,8 @@ h2 {
 	width: 80vw;
 	color: white;
 	margin: 0 auto;
-	font-size: 1.5vw;
-	padding-bottom: 2vh;
+	font-size: 12px;
+	padding-bottom: 1.5vh;
 }
 
 #main {
@@ -147,5 +147,11 @@ a {
 
 	#main {
 		height: auto;
+	}
+}
+
+@media (min-width: 1000px) {
+	h2 {
+		font-size: 16px;
 	}
 }
