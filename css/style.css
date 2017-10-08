@@ -1,0 +1,138 @@
+body {
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: "Space Mono", monospace;
+
+	/* Background pattern from Hero Patterns*/
+	background-color: #38182f;
+	background-image: url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9 0h2v20H9V0zm25.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm-20 20l1.732 1-10 17.32-1.732-1 10-17.32zM58.16 4.134l1 1.732-17.32 10-1-1.732 17.32-10zm-40 40l1 1.732-17.32 10-1-1.732 17.32-10zM80 9v2H60V9h20zM20 69v2H0v-2h20zm79.32-55l-1 1.732-17.32-10L82 4l17.32 10zm-80 80l-1 1.732-17.32-10L2 84l17.32 10zm96.546-75.84l-1.732 1-10-17.32 1.732-1 10 17.32zm-100 100l-1.732 1-10-17.32 1.732-1 10 17.32zM38.16 24.134l1 1.732-17.32 10-1-1.732 17.32-10zM60 29v2H40v-2h20zm19.32 5l-1 1.732-17.32-10L62 24l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM111 40h-2V20h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zM40 49v2H20v-2h20zm19.32 5l-1 1.732-17.32-10L42 44l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM91 60h-2V40h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM39.32 74l-1 1.732-17.32-10L22 64l17.32 10zm16.546 4.16l-1.732 1-10-17.32 1.732-1 10 17.32zM71 80h-2V60h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM120 89v2h-20v-2h20zm-84.134 9.16l-1.732 1-10-17.32 1.732-1 10 17.32zM51 100h-2V80h2v20zm3.134.84l1.732 1-10 17.32-1.732-1 10-17.32zm24.026 3.294l1 1.732-17.32 10-1-1.732 17.32-10zM100 109v2H80v-2h20zm19.32 5l-1 1.732-17.32-10 1-1.732 17.32 10zM31 120h-2v-20h2v20z' fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+h1 {
+	color: white;
+	font-family: "Shrikhand", cursive;
+	font-size: 5vw;
+	margin: 0 auto;
+	padding: 3vh;
+}
+
+
+#main {
+	display: block;
+	height: 60vh;
+}
+
+#content {
+	display: inline-block;
+}
+
+.container {
+	display: inline-block;
+	width: 70vw;
+	height: 60vh;
+	background: white;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding-bottom: 5vh;
+}
+
+.arrow {
+	display: inline-block;
+	font-family: "Shrikhand", cursive;
+	color: white;
+	font-size: 15vh;
+	padding-top: 15vh;
+	height: 100%;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+#rightArrow {
+	padding-left: 5vw;
+}
+
+#leftArrow {
+	padding-right: 5vw;
+}
+
+/*HORIZONTAL (ALIGNED SIDE-BY-SIDE) */
+.text-horizontal {
+	width: 50%;
+	vertical-align: top;
+	display: inline-flex;
+	margin: 0 auto;
+}
+
+
+.gif-horizontal {
+	max-width: 40%;
+	display: inline-flex;
+  	margin: 0 auto;
+	height: 70%;
+	padding-left: 5vw;
+}
+
+/*VERTICAL */
+.text-vertical {
+	padding: 10vh;
+}
+
+.gif-vertical {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 2vh;
+	height: 50%;
+}
+
+.container-mobile {
+	padding-top: 5vh;
+	margin: 5vh;
+
+}
+
+.text-mobile {
+	padding-bottom: 5vh;
+	width: 80%;
+	text-align: center;
+	padding-left: 10%;
+}
+
+.gif-mobile {
+	padding-top: 5vh;
+	height: 15vh;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+p {
+	font-size: 12px;
+}
+
+#closing {
+	display: block;
+	margin: 0 auto;
+	width: 80vw;
+	margin-top: 7vh;
+	color: white;
+	font-family: "Shrikhand", cursive;
+}
+
+a {
+	font-size: 18px;
+	color: white;
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 30px;
+	}
+
+	#closing {
+		position: absolute;
+		top: 6825px;
+	}
+}
